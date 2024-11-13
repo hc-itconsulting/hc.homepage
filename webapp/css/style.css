@@ -1,0 +1,132 @@
+/* Images */
+.hero-image {
+	width: 600px; /* adjust to your desired size */
+	height: auto;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff; /* adjust to your desired background color */
+}
+
+.card-circular-image {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff; /* adjust to your desired background color */
+}
+
+.contact-image {
+	width: 550px;
+	height: auto;
+}
+
+/* Texts */
+.xlarge-text {
+	font-size: clamp(2.25rem, 2.25rem + ((1vw - 0.2rem) * 2.5), 3.75rem);
+	font-weight: 600;
+	letter-spacing: -0.01em;
+}
+
+.large-text {
+	font-size: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 1.433), 2.25rem);
+}
+
+.card-title {
+	font-size: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 1.433), 2.25rem);
+	font-weight: 600;
+}
+
+.standard-text {
+	font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.417), 1.2rem);
+	font-weight: 400;
+}
+
+.bold-text {
+	font-weight: 600;
+}
+
+.color-main {
+	color: #3f72af !important;
+}
+
+.background-color-main {
+	background-color: #3f72af !important;
+}
+
+.text-h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+.text-h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.text-h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.text-p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.padding-top-bot {
+	padding-top: min(6rem, 8vw);
+	padding-bottom: min(6rem, 8vw);
+}
+
+.hero-vbox {
+	width: 600px;
+}
+
+.responsive-width {
+	width: 1000px;
+}
+
+.page-bg-color {
+	background-color: #f9f7f7;
+}
+
+.footer-bg-color {
+	background-color: #dbe2ef;
+}
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+	.hero-vbox {
+		width: 100%;
+	}
+	.responsive-width {
+		width: 100%;
+	}
+	.hero-image {
+		width: 100%; /* adjust to your desired size */
+		height: auto;
+		border-radius: 50%;
+		overflow: hidden;
+		background-color: #fff; /* adjust to your desired background color */
+	}
+	.contact-image {
+		width: 100%;
+		height: auto;
+	}
+}

@@ -1,0 +1,44 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+>
+    <FlexBox
+        alignItems="Start"
+        justifyContent="SpaceBetween"
+    >
+        <HBox class="sapUiContentPadding">
+            <Image
+                src="{img>/Logo}"
+                width="100px"
+            />
+        </HBox>
+        <HBox
+            class="sapUiContentPadding"
+            wrap="Wrap"
+        >
+            <Button
+                text="Home"
+                class="sapUiTinyMarginEnd"
+                type="Transparent"
+                press="onHomeButtonPress"
+            />
+            <Button
+                text="Impressum"
+                class="sapUiTinyMarginEnd"
+                type="Transparent"
+                press="onImpressumButtonPress"
+            />
+            <Button
+                text="Copyright"
+                class="sapUiTinyMarginEnd"
+                type="Transparent"
+                press="onCopyrightButtonPress"
+            />
+            <Button
+                text="Datenschutzerklärung"
+                type="Transparent"
+                press="onPrivacyButtonPress"
+            />
+        </HBox>
+    </FlexBox>
+</c:FragmentDefinition>

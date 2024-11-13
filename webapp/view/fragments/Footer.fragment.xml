@@ -1,0 +1,29 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+>
+    <FlexBox
+        class='footer-bg-color'
+        alignItems="Center"
+        justifyContent="End"
+    >
+        <HBox class="sapUiContentPadding">
+            <Text
+                class="standard-text"
+                text="© 2024 Hunor Czaka"
+            />
+        </HBox>
+        <HBox class="sapUiContentPadding">
+            <Text
+                class="standard-text sapUiTinyMarginEnd"
+                text="Powered by:"
+            />
+            <Link
+                class="standard-text"
+                text="OpenUI5"
+                target="_blank"
+                href="https://openui5.org/"
+            />
+        </HBox>
+    </FlexBox>
+</c:FragmentDefinition>

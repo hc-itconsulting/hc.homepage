@@ -1,0 +1,292 @@
+<mvc:View
+    controllerName="hc.homepage.controller.Main"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <Page
+        class='page-bg-color'
+        showHeader="false"
+        showSubHeader="false"
+    >
+        <content>
+            <core:Fragment
+                fragmentName="hc.homepage.view.fragments.Header"
+                type="XML"
+            />
+            <HBox justifyContent="Center">
+                <VBox class='sapUiContentPadding'>
+                    <FlexBox
+                        class='padding-top-bot'
+                        justifyContent="SpaceBetween"
+                        alignItems="Center"
+                        wrap="Wrap"
+                    >
+                        <VBox class='hero-vbox sapUiMediumMarginBottom'>
+                            <Text
+                                class='xlarge-text'
+                                text='PROBLEME SIND DAZU DA UM SIE ZU LÖSEN,'
+                            />
+                            <Text
+                                class='xlarge-text'
+                                text='ICH BIN FÜR SIE DA, IHNEN DABEI ZU HELFEN.'
+                            />
+                            <Text
+                                class='large-text sapUiSmallMarginTop'
+                                text='Beratung und Softwareentwicklung im Bereich SAP®.'
+                            />
+                            <Button
+                                class='sapUiSmallMarginTop'
+                                text="Kontaktieren Sie mich"
+                                type="Emphasized"
+                                press="onImpressumButtonPress"
+                            />
+                        </VBox>
+
+                        <Image
+                            src="{img>/Hero}"
+                            class="hero-image"
+                        />
+                    </FlexBox>
+                    <FlexBox
+                        class='padding-top-bot'
+                        justifyContent="SpaceBetween"
+                        alignItems="Center"
+                        wrap="Wrap"
+                    >
+                        <VBox class='hero-vbox'>
+                            <Text
+                                class='large-text bold-text'
+                                text="Mein Name ist, Hunor Czaka mit mehr als 14 Jahre Erfahrung in SAP® IT Beratung und Softwareentwicklung"
+                            />
+                        </VBox>
+                        <VBox class='hero-vbox'>
+                            <Text
+                                class='standard-text text-p'
+                                text='Was Ich für Sie tun kann…'
+                            />
+                            <Text
+                                class='standard-text'
+                                text='Teil von die Lösung sein, Ihre Team bei schwierige, herausfordernde Umsetzungen unterstützen.'
+                            />
+                            <Text
+                                class='standard-text'
+                                text='Neue Ideen bringen, immer pro-aktiv über den Tellerrand schauen.'
+                            />
+                            <Text
+                                class='standard-text'
+                                text='Prozesse, Lösungen kritisch hinterfragen und versuchen Lösungen mit Hilfe von SAP® Technologien umzusetzen.'
+                            />
+                        </VBox>
+                    </FlexBox>
+                    <FlexBox
+                        class='padding-top-bot'
+                        justifyContent="SpaceBetween"
+                        alignItems="Center"
+                        wrap="Wrap"
+                    >
+                        <f:Card
+                            width="400px"
+                            height="650px"
+                            class="sapUiMediumMarginEnd sapUiMediumMarginBottom"
+                        >
+                            <f:content>
+                                <VBox
+                                    class="sapUiSmallMargin"
+                                    justifyContent="Start"
+                                    alignItems="Center"
+                                >
+                                    <Text
+                                        class='sapUiSmallMarginTop sapUiMediumMarginBottom card-title'
+                                        text="Design"
+                                    />
+                                    <Image
+                                        src="{img>/Design}"
+                                        class="card-circular-image"
+                                    />
+                                    <Text
+                                        class='sapUiMediumMarginTop standard-text'
+                                        text="Eine der wichtigsten Aspekte der Softwareentwicklung. Mit einem soliden Design kann man viel Zeit und Energie sparen."
+                                    />
+                                </VBox>
+                            </f:content>
+                        </f:Card>
+                        <f:Card
+                            width="400px"
+                            height="650px"
+                            class="sapUiMediumMarginEnd sapUiMediumMarginBottom"
+                        >
+                            <f:content>
+                                <VBox
+                                    class="sapUiSmallMargin"
+                                    justifyContent="Start"
+                                    alignItems="Center"
+                                >
+                                    <Text
+                                        class='sapUiSmallMarginTop sapUiMediumMarginBottom card-title'
+                                        text="Develop"
+                                    />
+                                    <Image
+                                        src="{img>/Develop}"
+                                        class="card-circular-image"
+                                    />
+                                    <Text
+                                        class='sapUiMediumMarginTop standard-text'
+                                        text="Gute fachliche und technische Kenntnisse, Kombination mit Einsetzung von die richtige SAP® Werkzeugen und Technologien ermöglichen eine effiziente Umsetzung."
+                                    />
+                                </VBox>
+                            </f:content>
+                        </f:Card>
+                        <f:Card
+                            width="400px"
+                            height="650px"
+                            class="sapUiMediumMarginBottom"
+                        >
+                            <f:content>
+                                <VBox
+                                    class="sapUiSmallMargin"
+                                    justifyContent="Start"
+                                    alignItems="Center"
+                                >
+                                    <Text
+                                        class='sapUiSmallMarginTop sapUiMediumMarginBottom card-title'
+                                        text="Deliver"
+                                    />
+                                    <Image
+                                        src="{img>/Deliver}"
+                                        class="card-circular-image"
+                                    />
+                                    <Text
+                                        class='sapUiMediumMarginTop standard-text'
+                                        text="Softwareentwicklung macht nur dann Sinn, wenn die Kunden am Ende zufrieden sind und Ihre Ziele erreichen. Deswegen ist die erfolgreiche Abschluss die wichtigste von Allem."
+                                    />
+                                </VBox>
+                            </f:content>
+                        </f:Card>
+                    </FlexBox>
+                    <FlexBox
+                        class='padding-top-bot'
+                        justifyContent="SpaceBetween"
+                        alignItems="Start"
+                        wrap="Wrap"
+                    >
+                        <VBox
+                            width="300px"
+                            class='sapUiMediumMarginBottom'
+                        >
+                            <Text
+                                class='large-text bold-text color-main'
+                                text="14+"
+                            />
+                            <Text
+                                class='text-h2'
+                                text="Jahre"
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Gute methodische wie z.B.: Lösungsorientierung, Analytisches denken, Stress resistent
+                                      und technische Kenntnisse wie z.B.: SAP Fiori®, CAP, SAP® RESTful Application Programming Model, 
+                                      SAP® UI5, ABAP® OO usw."
+                            />
+                        </VBox>
+                        <VBox
+                            width="300px"
+                            class='sapUiMediumMarginBottom'
+                        >
+                            <Text
+                                class='large-text bold-text color-main'
+                                text="Mehrere"
+                            />
+                            <Text
+                                class='text-h2'
+                                text="Kunden"
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Mit über 14 Jahren Erfahrung Kunden in verschiedene Branchen (Chemie, Versicherung, Rückversicherung, Energie) erfolgreich unterstützt."
+                            />
+                        </VBox>
+                        <VBox
+                            width="300px"
+                            class='sapUiMediumMarginBottom'
+                        >
+                            <Text
+                                class='large-text bold-text color-main'
+                                text="Viele"
+                            />
+                            <Text
+                                class='text-h2'
+                                text="Projekte"
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Projekterfahrung mit unterschiedliche Vorgehensmodellen (Wasserfall, Scrum, Kombination von die Beiden)."
+                            />
+                            <Text
+                                class='standard-text'
+                                text="SAP® Produktentwicklung. Entwicklung über verteilte Standorte, internationale Projekten. Gute Sprachkenntnisse (Deutsch, Englisch, Ungarisch, Rumänisch)."
+                            />
+                        </VBox>
+                        <VBox
+                            width="300px"
+                            class='sapUiMediumMarginBottom'
+                        >
+                            <Text
+                                class='large-text bold-text color-main'
+                                text="100%"
+                            />
+                            <Text
+                                class='text-h2'
+                                text="Kundenzufriedenheit"
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Was mich motiviert…"
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Kunden bei den Herausforderungen und bei Erreichung von Ihre Ziele unterstützen."
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Effiziente Software zu bauen, die einen Mehrwert für die Kunden bringt."
+                            />
+                            <Text
+                                class='standard-text'
+                                text="Herausforderungen, was neues zu lernen."
+                            />
+                        </VBox>
+                    </FlexBox>
+                    <FlexBox
+                        class='padding-top-bot'
+                        justifyContent="SpaceBetween"
+                        alignItems="Start"
+                        wrap="Wrap"
+                    >
+                        <Image
+                            class='contact-image'
+                            src="{img>/Contact}"
+                        />
+                        <VBox>
+                            <Text
+                                class='large-text bold-text'
+                                text="Bereit, Ihre IT zu transformieren?"
+                            />
+                            <Button
+                                class='sapUiSmallMarginTop'
+                                text="Kontaktieren Sie mich"
+                                type="Emphasized"
+                                press="onImpressumButtonPress"
+                            />
+                        </VBox>
+                    </FlexBox>
+                </VBox>
+            </HBox>
+            <core:Fragment
+                fragmentName="hc.homepage.view.fragments.Footer"
+                type="XML"
+            />
+        </content>
+    </Page>
+</mvc:View>

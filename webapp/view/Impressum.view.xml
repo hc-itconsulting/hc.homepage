@@ -1,0 +1,71 @@
+<mvc:View
+    controllerName="hc.homepage.controller.Impressum"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
+>
+    <Page
+        class='page-bg-color'
+        showHeader="false"
+        showSubHeader="false"
+    >
+        <content>
+            <core:Fragment
+                fragmentName="hc.homepage.view.fragments.Header"
+                type="XML"
+            />
+            <HBox justifyContent="Center">
+                <VBox class='sapUiContentPadding responsive-width'>
+                    <Text
+                        class="xlarge-text padding-top-bot"
+                        text="Impressum"
+                    />
+                    <FlexBox
+                        justifyContent="SpaceBetween"
+                        alignItems="Start"
+                        wrap="Wrap"
+                    >
+                        <VBox class='sapUiMediumMarginBottom'>
+                            <Text
+                                class="standard-text  bold-text"
+                                text="Verantwortlich:"
+                            />
+                            <Text
+                                class="standard-text"
+                                text="Hunor Czaka&#13;&#10;
+                                Hunor Czaka IT Consulting&#13;&#10;
+                                Staufeneckerstr. 7B&#13;&#10;
+                                83416 Saaldorf-Surheim"
+                            />
+                        </VBox>
+                        <VBox class='sapUiMediumMarginBottom'>
+                            <Text
+                                class="standard-text  bold-text"
+                                text="Kontakt:"
+                            />
+                            <Text
+                                class="standard-text"
+                                text="E-Mail: info@hc-itconsulting.de&#13;&#10;
+                                    Tel: +49 8654 5890669"
+                            />
+                        </VBox>
+                        <VBox>
+                            <Text
+                                class="standard-text  bold-text"
+                                text="Umsatzsteuer-ID:"
+                            />
+                            <Text
+                                class="standard-text"
+                                text="DE361639448"
+                            />
+                        </VBox>
+                    </FlexBox>
+                </VBox>
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>
